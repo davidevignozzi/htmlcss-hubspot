@@ -10,6 +10,7 @@
 }
 
 .container{
+  width: 100vw;
   min-width: 1200px;
   margin: 0 auto;
 }
@@ -19,8 +20,8 @@ a{
   color: inherit;
 }
 
-ul{
-  style:none;
+.no-style{
+  style: none;
 }
 
 .clearfix::after{
@@ -64,15 +65,61 @@ ul{
 .upbar{
   height: 60px;
   line-height: 60px;
-  margin-left: 200px;
-  margin-right: 200px;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
-.upbar ul li{
+.upbar > ul li{
   display: inline-block;
-  margin-right: 10px;
-  margin-left: 10px;
+  padding: 0 10px;
   color: grey;
 }
 
 /* fine upbar */
+.logo{
+  margin-left: 10%;
+  margin-top: 15px;
+}
+.navbar-container{
+  margin-right: 10%;
+  height: 60px;
+}
+.navbar-container ul li{
+  display: inline-block;
+  padding: 0 10px;
+  color: #33475B;
+  line-height: 60px;
+}
+
+/* jumbotron */
+.jumbotron-container{
+  background-image: url(../img/jumbotron.png);
+  height: 600px;
+}
+.jumbotron-content{
+  width: 500px;
+  margin-left: 10%;
+  margin-top: 60px;
+}
+
+.jumbotron-content h1{
+  font-size: 66px;
+  color: #33475B;
+}
+
+.jumbotron-content p{
+  margin-top: 30px;
+  color: #33475B;
+  font-size: 22px;
+}
+
+.jumbotron-content .button{
+  padding: 10px 20px;
+  margin-top: 30px;
+}
+
+.link-jumbotron{
+  color: #33475B;
+  display: block;
+  margin-top: 30px;
+}
