@@ -10,7 +10,7 @@
 }
 
 .container{
-  width: 1200px;
+  width: 1400px;
   min-width: 1200px;
   margin: 0 auto;
 }
@@ -139,14 +139,14 @@ a{
 
 /* main */
 .main-container{
-  height: 1200px;
   background-color:#F5F8FA;
   margin: 0 auto;
+  padding-bottom: 15px;
 }
 
 .cubo img{
 margin-top: 50px;
-margin-left: 450px;
+margin-left: 600px;
 }
 
 .cubo h2{
@@ -164,8 +164,10 @@ margin-left: 450px;
   color: #33475B;
 }
 
+/* hubspot-free */
 .hubspotfree-container{
   margin: 0 auto;
+  background-color: #fff;
   margin-top: 50px;
   width: 75%;
   height: 300px;
@@ -217,7 +219,7 @@ margin-left: 450px;
 .hubspotfree-right hr{
   display: inline-block;
   color: #33475B;
-  width: 250px;
+  width: 375px;
   margin-left: 50px;
   vertical-align: middle;
 }
@@ -227,6 +229,92 @@ margin-left: 450px;
   display: inline-block;
   padding-right: 15px;
 }
+/* fine hubspot-free */
+
+/* hubspot-packages */
+.hubspot-packages-container{
+  margin-left: 175px;
+  margin-top: 50px;
+}
+
+.hubspot-packages-container .block{
+  width: 340px;
+  margin: 0 auto;
+  background-color: #fff;
+  box-shadow: 2px 2px 20px grey;
+}
+
+.hubspot-packages-container .block:nth-child(2){
+  margin: 0 15px;
+}
+
+.hubspot-packages-container .block > img{
+  margin-left: 120px;
+  margin-top: 50px;
+}
+
+.hubspot-packages-container .block:nth-child(2) > img{
+  margin-left: 105px;
+}
+
+.hubspot-packages-container .block h2{
+  color: #33475B;
+  font-size: 24px;
+  word-spacing: 10px;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 20px;
+}
+
+.hubspot-packages-container .block p{
+  color: #33475B;
+  font-size: 16px;
+  text-align: center;
+  padding: 0 20px;
+  padding-bottom: 20px;
+}
+
+.hubspot-packages-container .block h3{
+  color: #33475B;
+  font-size: 20px;
+  word-spacing: 10px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.hubspot-packages-container .block hr{
+  color: #33475B;
+  width: 75%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.hubspot-packages-container .block:first-child hr{
+  margin-top: 5px;
+}
+
+.hubspot-packages-container .block:nth-child(2) hr{
+  margin-top: 25px;
+}
+
+.hubspot-packages-container .block:last-child hr{
+  margin-top: 25px;
+}
+
+.hubspot-packages-container .block ul li{
+  margin-left: 80px;
+  color: #33475B;
+}
+
+.hubspot-packages-container .block .button{
+ margin-left: 105px;
+ margin-top: 30px;
+ margin-bottom: 50px;
+}
+
+
+
+/* fine hubspot-packages */
 
 
 /* fine main */
