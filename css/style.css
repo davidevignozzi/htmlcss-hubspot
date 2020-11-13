@@ -6,11 +6,11 @@
 
 .page-container{
   width: 100vw;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 .container{
-  width: 100vw;
+  width: 1200px;
   min-width: 1200px;
   margin: 0 auto;
 }
@@ -21,7 +21,7 @@ a{
 }
 
 .no-style{
-  style: none;
+  list-style-type: none;
 }
 
 .clearfix::after{
@@ -55,6 +55,11 @@ a{
   background-color: #FF7A59;
 }
 
+.orange-checkmark img{
+  width: 12px;
+  height: 12px;
+  margin-right: 10px;
+}
 /* fine utility class*/
 
 /* upbar */
@@ -103,14 +108,14 @@ a{
 }
 
 .jumbotron-content h1{
-  font-size: 66px;
+  font-size: 40px;
   color: #33475B;
 }
 
 .jumbotron-content p{
   margin-top: 30px;
   color: #33475B;
-  font-size: 22px;
+  font-size: 16px;
 }
 
 .jumbotron-content .button{
@@ -123,3 +128,105 @@ a{
   display: block;
   margin-top: 30px;
 }
+
+.blue-bar{
+  height: 80px;
+  background-color: #92E4DA;
+  border-top: 4px solid #33475B;
+  border-bottom: 4px solid #33475B;
+}
+/* fine jumbotron */
+
+/* main */
+.main-container{
+  height: 1200px;
+  background-color:#F5F8FA;
+  margin: 0 auto;
+}
+
+.cubo img{
+margin-top: 50px;
+margin-left: 450px;
+}
+
+.cubo h2{
+  text-align: center;
+  font-size: 32px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #33475B;
+}
+
+.cubo p{
+  text-align: center;
+  margin-left: 200px;
+  margin-right: 200px;
+  color: #33475B;
+}
+
+.hubspotfree-container{
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 75%;
+  height: 300px;
+  box-shadow: 2px 2px 20px grey;
+}
+
+.hubspotfree-left{
+  width: 30%;
+}
+
+.hubspotfree-right{
+  width: 70%;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 30px;
+}
+
+.hubspotfree-left img{
+  width: 150px;
+  height: 150px;
+  margin-left: 120px;
+  margin-top: 30px;
+}
+
+.hubspotfree-left .button{
+  margin-left: 130px;
+  margin-top: 30px;
+}
+
+.hubspotfree-right h2{
+  color: #33475B;
+  font-size: 24px;
+  word-spacing: 8px;
+  padding-bottom: 30px;
+}
+
+.hubspotfree-right p{
+  color: #33475B;
+  padding-bottom: 20px;
+}
+
+.hubspotfree-right h3{
+  color: #33475B;
+  display: inline-block;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+}
+
+.hubspotfree-right hr{
+  display: inline-block;
+  color: #33475B;
+  width: 250px;
+  margin-left: 50px;
+  vertical-align: middle;
+}
+
+.hubspotfree-right ul li{
+  color: #33475B;
+  display: inline-block;
+  padding-right: 15px;
+}
+
+
+/* fine main */
