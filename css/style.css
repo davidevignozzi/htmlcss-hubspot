@@ -11,7 +11,6 @@
 
 .container{
   width: 1400px;
-  min-width: 1200px;
   margin: 0 auto;
 }
 
@@ -335,14 +334,15 @@ margin-left: 600px;
   font-size: 18px;
   padding-top: 30px;
   margin: 0 100px;
+
 }
 
 .light-blue-table{
-  padding: 75px 100px;
+  padding: 75px 120px;
 }
 
 .light-blue-block{
-  width: 300px;
+  width: 25%;
   border-right: 2px solid #fff;
 }
 
@@ -362,19 +362,19 @@ margin-left: 600px;
   padding-top: 20px;
 }
 .light-blue-block:nth-child(2) img{
-  margin: 0 110px;
+  margin-left: 110px;
 }
 .light-blue-block:nth-child(3) img{
-  margin: 0 90px;
+  margin-left: 90px;
 }
 .light-blue-block:nth-child(4) img{
-  margin: 0 90px;
+  margin-left: 90px;
 }
 .light-blue-block:nth-child(5) img{
-  margin: 0 115px;
+  margin-left: 115px;
 }
 .light-blue-block:nth-child(8) img{
-  margin: 0 100px;
+  margin-left: 100px;
   padding-bottom: 10px;
 }
 /* centratura immagini */
@@ -394,6 +394,8 @@ margin-left: 600px;
   padding-bottom: 15px
 }
 /* fine parte celeste */
+
+/* Growing */
 .growing-container{
   background-color: #F5F8FA;
 }
@@ -419,4 +421,58 @@ margin-left: 600px;
   margin-top: 50px;
   margin-right: 150px;
 }
+
+.row-growing{
+  position: relative;
+  margin-top: 100px;
+  margin-left: 100px;
+  padding-bottom: 50px;
+}
+
+.growing-description{
+  width: 600px;
+  color: #33475B;
+}
+
+.growing-description h2{
+  font-size: 40px;
+  margin-bottom: 30px;
+  margin-left: 30px;
+}
+
+.growing-description p{
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.growing-description .button{
+  padding: 15px 30px;
+  margin-bottom: 30px;
+
+}
+
+.growing-description span{
+  display: block;
+  font-size: 12px;
+}
+
+.woman-image img{
+  width: 350px;
+  height: 400px;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  left: 75%;
+  top: 40%;
+}
+/* fine growing */
+
 /* fine main */
+
+/* footer */
+.footer-container{
+  height: 500px;
+  background-color: #33475B; 
+}
+
+
+/* fine footer */
